@@ -1,0 +1,13 @@
+nav {
+    background-color: black;
+}
+.nav-option {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 12px 24px;
+}
+
+.nav-option:hover {
+    background: grey;
+}
