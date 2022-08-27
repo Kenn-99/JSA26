@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+
+<body>
+    <script>
+        var hs = [
+            { Name: "Nam", Age: "16" },
+            { Name: "Quân", Age: "16" },
+            { Name: "Phong", Age: "16" },
+            { Name: "Đạt", Age: "16" },
+            { Name: "Lan", Age: "16" },
+            { Name: "Minh", Age: "16" },
+            { Name: "Kiên", Age: "16" },
+            { Name: "Bảo", Age: "16" },
+            { Name: "An", Age: "16" },
+            { Name: "Khang", Age: "16" },
+        ]
+        localStorage.setItem("hs", JSON.stringify(hs));
+        hs[4].Name = "Hà";
+        localStorage.setItem("hs", JSON.stringify(hs));
+        hs.splice(6, 1)
+        localStorage.setItem("hs", JSON.stringify(hs));
+        hs.splice(0, 9)
+        localStorage.setItem("hs", JSON.stringify(hs));
+    </script>
+</body>
+
+</html>
