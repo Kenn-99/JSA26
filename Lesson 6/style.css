@@ -1,0 +1,58 @@
+/* Reset */
+* {
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+/* Sản phẩm */
+.khung-san-pham {
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+}
+
+.khung-san-pham>img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.khung-thong-tin {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.khung-thong-tin>h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.khung-thong-tin>h2 {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    margin-top: 15px;
+}
+
+.khung-mau {
+    display: flex;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.khung-mau>div {
+    width: 40px;
+    height: 40px;
+}
